@@ -29,7 +29,7 @@ public class BaseTest implements Runnable {
 
 	public BaseTest(){
 		try {
-			devices = deviceConf.getDivces();
+			devices = deviceConf.getDivcesInMac();
 			deviceCount = devices.size()/3;
 		}catch (Exception e) {
 			e.printStackTrace();
